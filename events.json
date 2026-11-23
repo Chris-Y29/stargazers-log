@@ -1,0 +1,26 @@
+[
+  {
+    "name": "github/docs",
+    "description": "The open-source repo for docs.github.com",
+    "url": "https://github.com/github/docs",
+    "starredAt": "2026-11-20"
+  },
+  {
+    "name": "microsoft/vscode",
+    "description": "Visual Studio Code",
+    "url": "https://github.com/microsoft/vscode",
+    "starredAt": "2026-11-18"
+  },
+  {
+    "name": "nodejs/node",
+    "description": "Node.js JavaScript runtime",
+    "url": "https://github.com/nodejs/node",
+    "starredAt": "2026-11-15"
+  },
+  {
+    "name": "python/cpython",
+    "description": "The Python programming language",
+    "url": "https://github.com/python/cpython",
+    "starredAt": "2026-11-12"
+  }
+]

@@ -1,0 +1,89 @@
+:root {
+  color-scheme: light dark;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  background: #f6f8fa;
+  color: #1f2328;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+.repository-list {
+  display: grid;
+  gap: 12px;
+}
+
+.repository-card {
+  padding: 16px;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(31, 35, 40, 0.05);
+}
+
+.repository-card h3 {
+  margin: 0 0 6px;
+}
+
+.repository-card a {
+  color: #0969da;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.repository-card a:hover {
+  text-decoration: underline;
+}
+
+.repository-card p {
+  margin-bottom: 8px;
+  color: #656d76;
+}
+
+.repository-card time {
+  color: #656d76;
+  font-size: 0.875rem;
+}
+
+.error {
+  color: #cf222e;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #0d1117;
+    color: #f0f6fc;
+  }
+
+  .repository-card {
+    border-color: #30363d;
+    background: #161b22;
+  }
+
+  .repository-card p,
+  .repository-card time {
+    color: #9198a1;
+  }
+
+  .repository-card a {
+    color: #58a6ff;
+  }
+}
